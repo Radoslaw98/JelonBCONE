@@ -1,5 +1,9 @@
 package Zadanie2;
 
+import Zadanie6.FabrykaLinii;
+
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,19 +26,46 @@ W main przygotuj 2 obiekty tego typu i zdefinuj (zainicjalizuj) wartości w ich 
 
          */
 
-//Line lineOne= new Line(5,"@");
+Line  lineOne= new Line(5,"@");
 //Line lineTwo= new Line(10,"!");
 //Line lineThee= new Line(15,"*");
 //
 //lineOne.printLine();
 //
 //
-        Rectangle rectangleOne = new Rectangle(5, 10, "@");
-        Rectangle rectangleTwo = new Rectangle(4, 3, "*");
+//        Rectangle rectangleOne = new Rectangle(5, 10, "@");
+//        Rectangle rectangleTwo = new Rectangle(4, 3, "*");
+//
+//        rectangleTwo.printRectangle();
+//        System.out.println();
+//        rectangleOne.printRectangle();
+        FabrykaLinii linia= new FabrykaLinii();
+//        Line line = linia.randomLongLine();
+//        System.out.println(line);
+//line.printLine();
+//Line line2= linia.randomSign();
+//        System.out.println(line2);
+//        line2.printLine();
+//
+//        Line line1= linia.radomLineAndSign();
+//        System.out.println(line1);
+//        line1.printLine();
 
-        rectangleTwo.printRectangle();
-        System.out.println();
-        rectangleOne.printRectangle();
+//List<Line> line3=linia.manyRandomLines(3);
+//           for(Line lines: line3){
+//                  lines.printLine();
+//                   System.out.println();
+//           }
+
+           Line line5= linia.twiceTimelongerLine();
+            System.out.println(line5);
+line5.printLine();
+            Line line6= linia.twiceTimelongerLine();
+            System.out.println(line6);
+            line6.printLine();
+            Line line7= linia.twiceTimelongerLine();
+            System.out.println(line7);
+            line7.printLine();
 
     }
 }

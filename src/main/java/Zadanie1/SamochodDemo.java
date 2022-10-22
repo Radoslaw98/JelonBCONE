@@ -58,5 +58,11 @@ wariant trudniejszy: stwórz w main tablicę samochodów a następnie wykorzystu
         }
 
 
+        /*
+        Wróć do zadania z klasami Linia oraz Samochod - dodaj do każdej z klas po dwa
+        różne konstruktory i wykorzystaj je w mainie.
+        W jednej z klas napisz konstruktory ręcznie a w drugiej wygeneruj.
+         */
+
     }
 }

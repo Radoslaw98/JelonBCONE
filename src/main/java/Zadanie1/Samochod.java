@@ -13,6 +13,7 @@ public class Samochod {
         this.przeglad=20_000;
 
     }
+    public  Samochod(){};
 
     public void display() {
         System.out.println("Marka: " + marka + " Przebieg: " + przebieg);
@@ -34,12 +35,5 @@ public void distance(int distance) {
     }
 
 
-    @Override
-    public String toString() {
-        return "Samochod{" +
-                "marka=" + marka +
-                ", przebieg=" + przebieg +
-                ", przeglad=" + przeglad +
-                '}';
-    }
+
 }
