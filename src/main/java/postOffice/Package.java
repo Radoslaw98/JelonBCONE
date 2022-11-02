@@ -14,12 +14,11 @@ public class Package {
 
     private final boolean isPrioritize;
 
-    private final Status status;
+    private Status status;
 
     private List<String> names = new ArrayList<>();
 
-    public Package(String sender, String receiver, double weight, Status status) {
-        this.status = status;
+    public Package(String sender, String receiver, double weight) {
         if (sender == null || sender.isEmpty() || receiver == null || receiver.isEmpty()) {
             throw new NoSenderOrReceiverException("No sender or receiver given");
         }
@@ -30,6 +29,7 @@ public class Package {
         this.receiver = receiver;
         this.weight = weight;
         this.isPrioritize = false;
+        this.status = Status.CREATED;
     }
 
     public Package() {
@@ -73,5 +73,9 @@ public class Package {
                 ", weight=" + weight +
                 ", isPrioritize=" + isPrioritize +
                 '}';
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 }

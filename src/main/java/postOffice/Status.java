@@ -2,5 +2,5 @@ package postOffice;
 
 public enum Status {
 
-    CREATED
+    CREATED, SENT
 }
