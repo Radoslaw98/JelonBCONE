@@ -1,0 +1,5 @@
+Clean Code: A Handbook of Agile Software Craftsmanship
+Introduction to Algorithms
+Structure and Interpretation of Computer Programs (SICP)
+The Clean Coder: A Code of Conduct for Professional Programmers
+Code Complete: A Practical Handbook of Software Construction
